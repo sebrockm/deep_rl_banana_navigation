@@ -45,6 +45,6 @@ Follow the instructions in `Navigation.ipynb`. It provides links to the necessar
 Then, execute the cells to train the agent.
 
 ### Expected Result
-After approximately 700 episodes the agent reaches the goal of a score of 13 on average.
+After approximately 500 episodes the agent reaches the goal of a score of 13 on average.
 But it runs even further and reaches better results.
 
