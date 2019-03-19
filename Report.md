@@ -55,19 +55,19 @@ By learning from a longer history, it is hopefully able to learn complicated mov
 ![graph](basic_banana_scores.png?raw=true "basic_banana_scores")
 
 ## Output
-Episode 100	Average Score: 0.53
-Episode 200	Average Score: 5.42
-Episode 300	Average Score: 8.99
-Episode 400	Average Score: 10.95
-Episode 490	Average Score: 12.97
-Environment solved in 491 episodes!	Average Score: 13.03
-Episode 500	Average Score: 13.12
-Episode 600	Average Score: 13.90
-Episode 700	Average Score: 13.47
-Episode 800	Average Score: 14.18
-Episode 900	Average Score: 13.50
-Episode 1000	Average Score: 14.10
-Episode 1026	Average Score: 14.93
+Episode 100	Average Score: 0.53  
+Episode 200	Average Score: 5.42  
+Episode 300	Average Score: 8.99  
+Episode 400	Average Score: 10.95  
+Episode 490	Average Score: 12.97  
+Environment solved in 491 episodes!	Average Score: 13.03  
+Episode 500	Average Score: 13.12  
+Episode 600	Average Score: 13.90  
+Episode 700	Average Score: 13.47  
+Episode 800	Average Score: 14.18  
+Episode 900	Average Score: 13.50  
+Episode 1000	Average Score: 14.10  
+Episode 1026	Average Score: 14.93  
 
 So, the goal is already reached after only ~500 episodes.
 
