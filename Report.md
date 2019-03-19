@@ -51,6 +51,26 @@ The GRU layer can be fed with an arbitrary number of timesteps of states, its in
 In this project **`rnn_seq_length = 30`** was chosen, so 30 chronological states are combined to one state that is fed into the network.
 By learning from a longer history, it is hopefully able to learn complicated moves like surrounding a blue banana.
 
+### Training progress
+![graph](basic_banana_scores.png?raw=true "basic_banana_scores")
+
+## Output
+Episode 100	Average Score: 0.53
+Episode 200	Average Score: 5.42
+Episode 300	Average Score: 8.99
+Episode 400	Average Score: 10.95
+Episode 490	Average Score: 12.97
+Environment solved in 491 episodes!	Average Score: 13.03
+Episode 500	Average Score: 13.12
+Episode 600	Average Score: 13.90
+Episode 700	Average Score: 13.47
+Episode 800	Average Score: 14.18
+Episode 900	Average Score: 13.50
+Episode 1000	Average Score: 14.10
+Episode 1026	Average Score: 14.93
+
+So, the goal is already reached after only ~500 episodes.
+
 ## Possible future Enhancements
 In general, very many different combinations of the hyperparameters can be tested and evaluated.
 As part of this, also different network architectures can be used.
