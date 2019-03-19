@@ -29,6 +29,7 @@ Since it's limited, the quality of the stored experiences will increase over tim
 Only in every **`update_every = 5`**-th timestep the neural network comes into play:
 A random sample of size **`batch_size = 64`** is drawn from the experience replay buffer.
 The algorithm uses two identical networks, to apply the **Fixed Q-Targets** technique.
+This technique decuples the input wheights from the wheight adjustment due to learning:
 The "next states" (s') of the sample batch are fed into the secondary ("fixed") network.
 Together with the reward and an applied discount rate of **`gamma = 0.995`**, this gives the target values.
 
